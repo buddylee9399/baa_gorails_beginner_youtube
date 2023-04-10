@@ -6,5 +6,13 @@
   <div>
     <%= link_to "Learn how to build this app in Rails", "https://gorails.com/start", target: :_blank, class: "btn btn-primary" %>
     <%= link_to "GitHub", "https://github.com/excid3/scheduled_tweets", target: :_blank, class: "btn btn-primary" %>
+    <%= button_to 'Connect Twitter', "/auth/twitter2", method: :post, data: {turbo: false}, class: 'btn btn-secondary' if Current.user %>
   </div>
+</div>
+
+<div class="">
+  <% if Current.user %>
+    <%= Current.user.twitter_accounts.inspect%>
+    <%#= image_tag Current.user.twitter_accounts.first.image %>
+  <% end %>
 </div>
