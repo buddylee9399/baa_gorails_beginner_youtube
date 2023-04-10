@@ -242,8 +242,9 @@ GEM
     thor (1.2.1)
     thread_safe (0.3.6)
     timeout (0.3.2)
-    turbo-rails (7.1.1)
-      rails (>= 6.0.0)
+    turbo-rails (0.9.1)
+      actionpack (>= 6.0.0)
+      railties (>= 6.0.0)
     twitter (7.0.0)
       addressable (~> 2.3)
       buftok (~> 0.2.0)
@@ -279,6 +280,7 @@ GEM
     zeitwerk (2.6.7)
 
 PLATFORMS
+  x86_64-darwin-17
   x86_64-darwin-19
 
 DEPENDENCIES
@@ -298,14 +300,14 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
-  turbo-rails
+  turbo-rails (~> 0.8)
   twitter (~> 7.0)
   tzinfo-data
   web-console
   webdrivers
 
 RUBY VERSION
-   ruby 3.0.1p64
+   ruby 3.0.4p208
 
 BUNDLED WITH
-   2.2.15
+   2.4.10
