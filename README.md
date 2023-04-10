@@ -2,8 +2,6 @@
 ## Go rails from youtube
 - https://www.youtube.com/watch?v=wkNR1hG4yOk&list=PLm8ctt9NhMNV75T9WYIrA6m9I_uw7vS56
 
-## its in the imac
-- /Users/fdr/Documents/WebDev2023/baa_gorails_beginner_youtube
 
 ### Rails for Beginners Part 2: How to create a new Rails app
 - rails new scheduled_tweets
@@ -35,7 +33,7 @@
 ```
 
 ### Rails for Beginners Part 7: Adding Bootstrap CSS & Javascript
-- copy the cds and put in layout/app
+- copy the cdns and put in layout/app
 ```
     <title>BaaGorailsBeginnerYoutube</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
